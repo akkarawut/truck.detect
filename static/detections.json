@@ -1,0 +1,207 @@
+{
+  "video_size": [
+    1280,
+    720
+  ],
+  "fps": 24.0,
+  "events": [
+    {
+      "id": 1,
+      "peak_frame": 40,
+      "peak_time": 1.67,
+      "t_start": 1.17,
+      "t_end": 2.17,
+      "plate_text": "หจ 0410",
+      "province": "ชัยนาท",
+      "timestamp": "17/09/2026 16:56:42",
+      "boxes": {
+        "full": [
+          660,
+          160,
+          620,
+          490
+        ],
+        "cargo": [
+          800,
+          250,
+          480,
+          240
+        ],
+        "plate": [
+          1064,
+          538,
+          192,
+          80
+        ]
+      },
+      "thumb": "thumbs/event_1.jpg",
+      "status": "uncovered",
+      "status_label": "ไม่คลุมผ้าใบ"
+    },
+    {
+      "id": 2,
+      "peak_frame": 75,
+      "peak_time": 3.12,
+      "t_start": 2.62,
+      "t_end": 3.62,
+      "plate_text": "ฒฐ 3658",
+      "province": "นครสวรรค์",
+      "timestamp": "17/09/2026 16:56:43",
+      "boxes": {
+        "full": [
+          660,
+          160,
+          620,
+          490
+        ],
+        "cargo": [
+          800,
+          250,
+          480,
+          240
+        ],
+        "plate": [
+          1064,
+          538,
+          192,
+          80
+        ]
+      },
+      "thumb": "thumbs/event_2.jpg",
+      "status": "covered",
+      "status_label": "คลุมผ้าใบ"
+    },
+    {
+      "id": 3,
+      "peak_frame": 114,
+      "peak_time": 4.75,
+      "t_start": 4.25,
+      "t_end": 5.25,
+      "plate_text": "งฮ 8936",
+      "province": "นครสวรรค์",
+      "timestamp": "17/09/2026 16:56:45",
+      "boxes": {
+        "full": [
+          660,
+          216,
+          620,
+          490
+        ],
+        "cargo": [
+          800,
+          306,
+          480,
+          240
+        ],
+        "plate": [
+          1064,
+          594,
+          192,
+          80
+        ]
+      },
+      "thumb": "thumbs/event_3.jpg",
+      "status": "uncovered",
+      "status_label": "ไม่คลุมผ้าใบ"
+    },
+    {
+      "id": 4,
+      "peak_frame": 151,
+      "peak_time": 6.29,
+      "t_start": 5.79,
+      "t_end": 6.79,
+      "plate_text": "ศผ 0521",
+      "province": "ชัยนาท",
+      "timestamp": "17/09/2026 16:56:46",
+      "boxes": {
+        "full": [
+          660,
+          216,
+          620,
+          490
+        ],
+        "cargo": [
+          800,
+          306,
+          480,
+          240
+        ],
+        "plate": [
+          1064,
+          594,
+          192,
+          80
+        ]
+      },
+      "thumb": "thumbs/event_4.jpg",
+      "status": "covered",
+      "status_label": "คลุมผ้าใบ"
+    },
+    {
+      "id": 5,
+      "peak_frame": 176,
+      "peak_time": 7.33,
+      "t_start": 6.83,
+      "t_end": 7.83,
+      "plate_text": "ฆฎ 3812",
+      "province": "ตาก",
+      "timestamp": "17/09/2026 16:56:47",
+      "boxes": {
+        "full": [
+          660,
+          224,
+          620,
+          490
+        ],
+        "cargo": [
+          800,
+          314,
+          480,
+          240
+        ],
+        "plate": [
+          1064,
+          602,
+          192,
+          80
+        ]
+      },
+      "thumb": "thumbs/event_5.jpg",
+      "status": "uncovered",
+      "status_label": "ไม่คลุมผ้าใบ"
+    },
+    {
+      "id": 6,
+      "peak_frame": 222,
+      "peak_time": 9.25,
+      "t_start": 8.75,
+      "t_end": 9.75,
+      "plate_text": "ษข 9196",
+      "province": "กำแพงเพชร",
+      "timestamp": "17/09/2026 16:56:49",
+      "boxes": {
+        "full": [
+          660,
+          224,
+          620,
+          490
+        ],
+        "cargo": [
+          800,
+          314,
+          480,
+          240
+        ],
+        "plate": [
+          1064,
+          602,
+          192,
+          80
+        ]
+      },
+      "thumb": "thumbs/event_6.jpg",
+      "status": "untidy",
+      "status_label": "คลุมผ้าใบไม่เรียบร้อย"
+    }
+  ]
+}

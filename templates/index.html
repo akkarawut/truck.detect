@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ระบบตรวจจับรถบรรทุก - คลุมผ้าใบ</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <div class="bg-grid"></div>
+  <div class="app">
+    <header class="app-header">
+      <p class="subtitle">AI VISION MONITORING &middot; ตรวจจับรถบรรทุก วิเคราะห์ป้ายทะเบียน และสถานะการคลุมผ้าใบ</p>
+    </header>
+
+    <div class="main-grid">
+      <!-- vdo -->
+      <div class="col-video">
+        <div class="video-card">
+          <div class="video-wrap" id="video-wrap">
+            <video id="video" src="{{ url_for('static', filename='video/trucks.mp4') }}" muted autoplay playsinline></video>
+            <canvas id="overlay"></canvas>
+            <div class="video-badge">
+              <span class="live-dot small"></span>LIVE CAM · CH1
+            </div>
+          </div>
+        </div>
+
+        <!-- stats -->
+        <div class="stats-row">
+          <button class="stat-btn stat-covered" data-status="covered">
+            <span class="stat-icon">&#10003;</span>
+            <span class="stat-label">คลุมผ้าใบ</span>
+            <span class="stat-count" id="count-covered">0</span>
+          </button>
+          <button class="stat-btn stat-uncovered" data-status="uncovered">
+            <span class="stat-icon">&#33;</span>
+            <span class="stat-label">ไม่คลุมผ้าใบ</span>
+            <span class="stat-count" id="count-uncovered">0</span>
+          </button>
+          <button class="stat-btn stat-untidy" data-status="untidy">
+            <span class="stat-icon">&#8776;</span>
+            <span class="stat-label">คลุมไม่เรียบร้อย</span>
+            <span class="stat-count" id="count-untidy">0</span>
+          </button>
+        </div>
+
+        <!-- filter -->
+        <div class="toolbar">
+          <span id="filter-hint" class="filter-hint"></span>
+        </div>
+      </div>
+
+      <div class="col-side">
+        <!-- history -->
+        <div class="history-panel">
+          <div class="history-panel-title">
+            <span>ประวัติการตรวจจับ</span>
+            <span class="history-panel-sub">DETECTION LOG</span>
+          </div>
+          <div class="history-list" id="history-list">
+            <div class="history-placeholder" id="history-placeholder">
+              <div>กำลังตรวจจับ...</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>
